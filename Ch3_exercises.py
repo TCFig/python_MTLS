@@ -94,3 +94,6 @@ def split(s,sep = " "):
     return res
 
 print(split("Hello   world     I am   your    creator     "))
+
+# Exercise 6
+print(f'\nExercise 6\n')
