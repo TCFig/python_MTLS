@@ -1,3 +1,21 @@
+# Example
+x = int (input('What is the meaning of life?'))
+if x == 42:
+    print('Correct!')
+if x > 42:
+    print('Too high :(')
+else:
+    print('Too low :(')
+
+x = int (input('What is the meaning of life?'))
+if x == 42:
+    print('Correct!')
+elif x > 42:
+    print('Too high :(')
+else:
+    print('Too low :(')
+    
+
 # Exercise 1
 print(f'\nExercise 1: a, b, c\n')
 
