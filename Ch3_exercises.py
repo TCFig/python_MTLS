@@ -219,41 +219,34 @@ print(f'\nExercise 11\n')
 
 
 def passcode():
-    
     """Function reads 4 digits (1-9), inputed by the user and evaluates if it's the correct code to unlock a door"""
     
     # start to define the pin in blank so that while loop can start.
     pin = ""
-
+    
     # While the pin is not the correct one the loop will keep on working
     while pin != "3107":
-
-        # This first while function asks the user for 4 digits between 1 and 9 (if they are not it sends an error).
+        
+        # This first while function asks the user for 4 digits between 0 and 9 (if they are not it sends an error).
         # The fucntion starts to combine the digits into a new pin until the user inputed 4 numbers (when count is 4)           
         count = 0
         while count < 4:
             num = input(f'Input number for pin: ')
-            if int(num) < 0 or int(num) > 10: 
+            if int(num) not in range(0,11): 
                 (print(f'\nError: Type a number between 1 and 9.\n'))
             else:
                 pin += num
                 count += 1
-
+        
         # the 4 digit pin created in the step above is then evaluated to see if it's the correct pin. 
         # If True, the door unlocks.  
         if pin == "3107":
             print(f'Door Unlocked!')
-    
-        # If False it start a new while loop.
+        
+        # If False it restarts the while loop.
         else:
-            print(f'Pin is incorrect! Try again.')
+            print(f'Pin {pin} is incorrect! Try again.')
             pin = ""  # If the pin is incorrect it resets so the user can input 4 new digits
+        
+    return True      
 
-
-
-
-# function asks for input number from user (one at a time) and the number needs to be between 1-9 (if not, send error)
-# While loop that counts until 4 inputs from the user
-# put numbers together and test if its the correct code
-# If it's the correct code print "Door unlocked!" and return True
-# Else ask for the pin again.
