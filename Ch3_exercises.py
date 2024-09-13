@@ -90,10 +90,14 @@ def split(s,sep = " "):
             # if the previous condition was not met, and if c is not a sep, than we start to create a new term by combining the c
             if c != sep : 
                 term += c
-    
+   
+    # add the final word unless it is empty 
+    if term != "":
+        res.append(term)
+
     return res
 
-print(split("Hello   world     I am   your    creator     "))
+print(split("Hello   world     I am   your    creator     exit"))
 
 # Exercise 6
 print(f'\nExercise 6\n')
