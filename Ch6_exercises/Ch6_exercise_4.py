@@ -1,7 +1,6 @@
 # Exercise 4
 print('\nExercise 4\n')
 
-
 # Given a sequence as input find distances between the copies of
 # the most frequent substring
 """
@@ -128,3 +127,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

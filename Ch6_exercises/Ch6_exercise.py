@@ -120,3 +120,22 @@ def main():
 
 main()
 
+
+# Exercise 5
+import itertools as iter
+
+print(f'\nExercise 5\n')
+
+# Look in the standard module itertools for permutations.
+# To concatenate the integers, try 
+    # 1. explicitly coercing the numbers to str, 
+    # 2. concatenating them with the string function .join()
+    # 3. coercing them back to int.
+
+
+
+number_list = [13, 24, 42, 66, 78]
+string_list = [str(i) for i in number_list]
+permutate_list = list(iter.permutations(string_list, r=2))
+results = [int("".join(i)) for i in permutate_list]
+
