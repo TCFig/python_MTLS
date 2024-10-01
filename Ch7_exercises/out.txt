@@ -1,0 +1,18 @@
+Chromosome: >chr1
+Gene Regions:
+Start: 2, End: 6 
+Start: 12, End: 16 
+
+Chromosome: >chr2
+Gene Regions:
+Start: 3, End: 10 
+Start: 19, End: 23 
+
+Chromosome: >chr3
+Gene Regions:
+Start: 11, End: 14 
+
+Chromosome: >chr5
+Gene Regions:
+Start: 11, End: 14 
+
