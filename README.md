@@ -1,3 +1,3 @@
-# MTLS Python exercises
+# Python exercises
 
-In this repository I have the solutions for the exercises of the MTLS py course
+In this repository I have the solutions for exercise on Python and some self learning in OOP.
