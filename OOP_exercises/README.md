@@ -1,5 +1,5 @@
 # DNA & RNA Sequence Analysis Project
-Overview
+## Overview
 This project applies Object-Oriented Programming (OOP) principles to bioinformatics, specifically for DNA and RNA sequence analysis. Inspired by bioinformatics challenges on [Rosalind](https://rosalind.info/problems/list-view/), it uses Python to create reusable classes and methods that analyze nucleotide sequences, implement DNA-to-protein translations, and calculate properties relevant to molecular biology.
 
 The project introduces `DNASequence` and `RNASequence` classes, each providing methods to solve key biological questions, such as identifying DNA motifs, GC content, and performing RNA translation into proteins. This structure provides a modular and extensible foundation for tackling more complex bioinformatics tasks.
